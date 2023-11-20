@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fadhlan & Devi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <script src="https://kit.fontawesome.com/57c8deaed4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="hero"
+        class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center">
+        <main>
+            <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+            <h1>Fadhlan & Devi</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+            <div class="simply-countdown"></div>
+            <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Lihat Undangan</a>
+        </main>
+    </section>
+    <nav class="navbar navbar-expand-md sticky-top mynavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fadhlan & Devi</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Fadhlan & Devi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#info">Info</a>
+                        <a class="nav-link" href="#story">Story</a>
+                        <a class="nav-link" href="#rsvp">RSVP</a>
+                        <a class="nav-link" href="#gifts">Gifts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Diselenggarakan pada 20 Januari 2024 di Bogor</h3>
+                    <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i,
+                        untuk hadir pada acara pernikahan kami</p>
+                </div>
+            </div>
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Akhmad Fadhlan Abdullah</h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam delectus quasi illo
+                                debitis. Ab commodi natus, eaque incidunt eveniet in, saepe maxime pariatur itaque
+                                veniam optio minima temporibus, unde ex.
+                            </p>
+                            <p>
+                                Putra dari Bpk. Nur Cahya Hadi <br> dan <br> Ibu Zainab
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <img src="a.png" alt="Akhmad Fadhlan Abdullah" class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="d.png" alt="Devi Kurniati" class="img-responsive rounded-circle" height="300px"
+                                width="300px">
+                        </div>
+                        <div class="col-8">
+                            <h3>Devi Kurniati</h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam delectus quasi illo
+                                debitis. Ab commodi natus, eaque incidunt eveniet in, saepe maxime pariatur itaque
+                                veniam optio minima temporibus, unde ex.
+                            </p>
+                            <p>
+                                Putra dari Bpk. Sugih <br> dan <br> Ibu Dewi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p class="alamat">Alamat: Jl. Patambran No.1 RT.01/RW.04 Desa Semplak Barat Kecamatan Kemang,
+                        Semplak Bar., Kec. Bogor Bar., Kota Bogor, Jawa Barat 16310</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3963.824966824186!2d106.749776!3d-6.543774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMzInMzcuNiJTIDEwNsKwNDQnNTkuMiJF!5e0!3m2!1sid!2sid!4v1700456534183!5m2!1sid!2sid"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href="https://maps.app.goo.gl/5WvPTWeqChcx8UTv8" target="_blank"
+                        class="btn btn-light btn-sm my-3">Klik Untuk
+                        Membuka Peta</a>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10 mb-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            Akad Nikah
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-clock fa-fade d-block" style="color: #fd30e2;"></i>
+                                    <span>08.00 - 10.00</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-calendar-days fa-fade d-block" style="color: #fd30e2;"></i>
+                                    <span>Sabtu, 20 Januari 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Saat acara akad nikah, diharapkan untuk menjaga kekhidmatan dan kekhusyu'an seluruh prosesi
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-10">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            Resepsi Nikah
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-clock fa-fade d-block" style="color: #fd30e2;"></i>
+                                    <span>10.00 - Selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-calendar-days fa-fade d-block" style="color: #fd30e2;"></i>
+                                    <span>Sabtu, 20 Januari 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Saat acara akad nikah, diharapkan untuk menjaga kekhidmatan dan kekhusyu'an seluruh prosesi
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="story" class="story">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Perjalanan Kisah Kami</span>
+                    <h2>Cerita Kami</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate maxime atque
+                        reprehenderit harum sit! Doloremque quas natus nesciunt rem quae facere officia culpa
+                        voluptatum, quo vitae illo asperiores quaerat?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-img" style="background-image: url(p1.jpg);">
+
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Pertemuan Pertama</h3>
+                                    <span>23 April 2023</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>
+                                        Pertemuan pertama kami ta'aruf dan menyampaikan niat baik kepada keluarga dengan
+                                        keluarga kami bertemu serta menentukan tanggal baik
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-img" style="background-image: url(p2.jpg);">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Pertemuan Kedua</h3>
+                                    <span>04 November 2023</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>
+                                        Pertemuan kedua kami untuk melanjutkan silaturahmi didampingi dengan pimpinan
+                                        pondok Ust. Purwanto, Bunda Yaumi, Bunda Siti, dan Bunda Durro
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-img" style="background-image: url(p1.jpg);">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Akad Nikah dan Resepsi</h3>
+                                    <span>20 Januari 2024</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>
+                                        Akad nikah dan resepsi kami insyaAllah akan dilaksanakan 20 Januari 2024
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="rsvp" class="rsvp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>
+                        Konfirmasi Kehadiran
+                    </h2>
+                    <p>
+                        Isi form di bawah ini untuk konfirmasi kehadiran.
+                    </p>
+                </div>
+            </div>
+            <form class="row row-cols-lg-auto g-3 align-items-center justify-content-center" method="post"
+                action="https://script.google.com/macros/s/AKfycbw7H2RDTyety2l8H-Zswx9oCor27v7cI51X7ZS2RdOW1Bcj0AcgzPEz_EVuEyVFg_CK/exec"
+                id="my-form">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah Kehadiran</label>
+                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1"
+                            value="1">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Konfirmasi</label>
+                        <select name="status" id="status" class="form-select">
+                            <option selected>Pilih Salahsatu</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">Tidak Hadir</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12" style="margin-top:33px;">
+                    <button class="btn btn-primary">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="gifts" class="gifts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>
+                        Ungkapan Tanda Kasih
+                    </span>
+                    <h2>
+                        Kirim Hadiah
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="fw-b">Rek. BSI</div>
+                            7148901117 - Akhmad Fadhlan Abdullah
+                        </li>
+                        <li class="list-group-item">
+                            <div class="fw-b">Rek. BSI</div>
+                            7147414867 - Devi Kurniati
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <div id="audio-container">
+        <audio id="song" autoplay loop>
+            <source src="audio/1.mp3" type="audio/mp3">
+        </audio>
+        <div class="audio-icon-wrapper" style="display: none;">
+            <i class="fa-solid fa-compact-disc"></i>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        simplyCountdown('.simply-countdown', {
+            year: 2024, // required
+            month: 1, // required
+            day: 20, // required
+            hours: 8, // Default is 0 [0-23] integer
+            minutes: 0, // Default is 0 [0-59] integer
+            seconds: 0, // Default is 0 [0-59] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'Hari', plural: 'Hari' },
+                hours: { singular: 'Jam', plural: 'Jam' },
+                minutes: { singular: 'Menit', plural: 'Menit' },
+                seconds: { singular: 'Detik', plural: 'Detik' }
+            },
+            // in case of inline set to false
+        });
+
+        // Also, you can init with already existing Javascript Object.
+        let myElement = document.querySelector('.my-countdown');
+        simplyCountdown(myElement, { /* options */ });
+
+        let multipleElements = document.querySelectorAll('.my-countdown');
+        simplyCountdown(multipleElements, { /* options */ });
+
+    </script>
+    <script>
+        const rootElement = document.querySelector(":root");
+        const audioIcon = document.querySelector('.audio-icon-wrapper')
+        const audioIconElement = document.querySelector('.audio-icon-wrapper i')
+        const song = document.querySelector('#song');
+        let isPlaying = false;
+        function disableScroll() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+            window.onscroll = function () {
+                window.scrollTo(scrollTop, scrollLeft);
+            }
+            rootElement.style.scrollBehavior = 'auto';
+        }
+        function enableScroll() {
+            window.onscroll = function () {
+                rootElement.style.scrollBehavior = 'smooth';
+                playAudio();
+                // localStorage.setItem('opened', 'true')
+            }
+        }
+        function playAudio() {
+
+            song.volume = 0.2;
+            audioIcon.style.display = 'flex';
+            song.play();
+            isPlaying = true;
+        }
+        // if (!localStorage.getItem('opened')) {
+        //     disableScroll();
+        // }
+        audioIcon.onclick = function () {
+            if (isPlaying) {
+                song.pause();
+                audioIconElement.classList.remove('fa-compact-disc')
+                audioIconElement.classList.add('fa-circle-pause')
+            }
+            else {
+                audioIconElement.classList.remove('fa-circle-pause')
+                audioIconElement.classList.add('fa-compact-disc')
+                song.play();
+            }
+            isPlaying = !isPlaying;
+        }
+        disableScroll();
+    </script>
+    <script>
+        window.addEventListener("load", function () {
+            const form = document.getElementById('my-form');
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                const action = e.target.action;
+                fetch(action, {
+                    method: 'POST',
+                    body: data,
+                })
+                    .then(() => {
+                        alert("konfirmasi Kehadiran Berhasil Terkirim");
+                    })
+            });
+        });
+
+    </script>
+</body>
+
+</html>
