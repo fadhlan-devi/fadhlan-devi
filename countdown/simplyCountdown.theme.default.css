@@ -120,12 +120,12 @@
     }
 
     .timeline li .timeline-img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .timeline li .timeline-panel {
-        width: 65%;
+        width: 60%;
     }
 
     .timeline li .timeline-panel::before {
