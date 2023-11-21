@@ -23,7 +23,7 @@
 
 .animasi.active {
   /* Ketika kelas "active" ditambahkan, elemen akan diberikan animasi */
-  animation: bounceIn 1.5s ease-in-out;
+  animation: bounceIn 2s ease-in-out;
   opacity: 1;
 }
 body {
