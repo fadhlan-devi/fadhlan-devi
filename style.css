@@ -1,7 +1,31 @@
 :root {
   --shadow: 0 2px 2px rgb(0 0 0/0.5)
 }
+@keyframes bounceIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
 
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animasi {
+  /* Awalnya elemen akan disembunyikan */
+  opacity: 0;
+}
+
+.animasi.active {
+  /* Ketika kelas "active" ditambahkan, elemen akan diberikan animasi */
+  animation: bounceIn 1.5s ease-in-out;
+  opacity: 1;
+}
 body {
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
