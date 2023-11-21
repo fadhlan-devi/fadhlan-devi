@@ -141,4 +141,7 @@
     .home {
         margin-top: -7rem;
     }
+    .home .couple {
+      margin-top: 45px;
+    }
 }
