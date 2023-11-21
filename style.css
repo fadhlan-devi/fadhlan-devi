@@ -194,6 +194,11 @@ body {
   font-size: 5rem;
   font-weight: bold;
 }
+.arab{
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 .quran h2{
   font-size: 3rem;
