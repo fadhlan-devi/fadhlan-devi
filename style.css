@@ -188,10 +188,15 @@ body {
 .home h2,
 .story h2,
 .rsvp h2,
-.gifts h2 {
+.gifts h2,
+.quran h2{
   font-family: 'Sacramento', cursive;
   font-size: 5rem;
   font-weight: bold;
+}
+
+.quran h2{
+  font-size: 3rem;
 }
 
 .home h3 {
@@ -205,7 +210,8 @@ body {
 
 .story,
 .rsvp,
-.gifts {
+.gifts,
+.quran{
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
