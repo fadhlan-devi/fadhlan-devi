@@ -138,4 +138,7 @@
     .home .couple img{
         height: 95px;
     }
+    .home {
+        margin-top: -7rem;
+    }
 }
